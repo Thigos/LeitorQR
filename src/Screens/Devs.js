@@ -46,7 +46,7 @@ export default function App( { navigation } ) {
         <View style={[devStyles.container, {marginTop: 40}]}>
             <View style={devStyles.topContainer}>
                 <View style={devStyles.imageContainer}>
-                    <Image source={{ uri: 'https://avatars.githubusercontent.com/u/72138192?v=4'}} style={devStyles.image}/>
+                    <Image source={{ uri: 'https://avatars.githubusercontent.com/u/72138192?s=1024&v=4'}} style={devStyles.image}/>
                     <Image style={devStyles.emoji} source={{ uri: 'https://github.githubassets.com/images/icons/emoji/unicode/1f609.png'}} />
                 </View>
                 <View style={devStyles.infos}>
