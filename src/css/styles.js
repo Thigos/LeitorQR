@@ -96,6 +96,15 @@ export const globalStyles = StyleSheet.create({
         height: 50,
         borderRadius: 25,
         alignItems: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 3,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: 16.00,
+        elevation: 6,
+        borderRadius: 33,
     },
 });
 

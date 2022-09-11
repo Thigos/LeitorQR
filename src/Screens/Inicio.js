@@ -21,7 +21,7 @@ export default function App( { navigation } ) {
         <Text style={globalStyles.text}>Navegue pelo app e descubra  como se previnir, se tratar e muito mais sobre algumas doenças que muitas vezes estamos expostos.</Text>
         <TouchableOpacity style={[globalStyles.button, inicStyles.button]} 
             onPress={() => navigation.navigate('Menu')}>
-            <Text style={[globalStyles.title, {lineHeight: 45, height: '100%'}]}>AVANÇAR</Text>
+            <Text style={[globalStyles.title, {lineHeight: 50, height: '100%'}]}>AVANÇAR</Text>
         </TouchableOpacity>
 
       </View>

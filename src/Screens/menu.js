@@ -17,17 +17,17 @@ export default function App( { navigation } ) {
 
         <TouchableOpacity style={[globalStyles.button, {marginBottom: 20}]} 
             onPress={() => navigation.navigate('Leitor QR')}>
-            <Text style={[globalStyles.title, {lineHeight: 45, height: '100%'}]}>Leitor QR</Text>
+            <Text style={[globalStyles.title, {lineHeight: 50, height: '100%'}]}>Leitor QR</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={[globalStyles.button, {marginBottom: 20}]} 
             onPress={() => navigation.navigate('Devs')}>
-            <Text style={[globalStyles.title, {lineHeight: 45, height: '100%'}]}>Desenvolvedores</Text>
+            <Text style={[globalStyles.title, {lineHeight: 50, height: '100%'}]}>Desenvolvedores</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={[globalStyles.button]} 
             onPress={() => navigation.navigate('Inicio')}>
-            <Text style={[globalStyles.title, {lineHeight: 45, height: '100%'}]}>Voltar</Text>
+            <Text style={[globalStyles.title, {lineHeight: 50, height: '100%'}]}>Voltar</Text>
         </TouchableOpacity>
 
       </View>
