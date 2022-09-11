@@ -50,7 +50,7 @@ export default function App( { navigation } ) {
                     <Image style={devStyles.emoji} source={{ uri: 'https://github.githubassets.com/images/icons/emoji/unicode/1f609.png'}} />
                 </View>
                 <View style={devStyles.infos}>
-                    <Text style={devStyles.title}>Kauanny {'\n'} Tenorio</Text>
+                    <Text style={devStyles.title}>Kauanny{'\n'}Tenorio</Text>
                     <Text style={devStyles.text}>KakauFelix</Text>
                 </View>
             </View>
